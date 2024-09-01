@@ -321,7 +321,7 @@ contract BSCGovernor is
         internal
         view
         override(GovernorUpgradeable, GovernorTimelockControlUpgradeable)
-        returns (address)
+        returns (bgr3)
     {
         return GovernorTimelockControlUpgradeable._executor();
     }
